@@ -1,0 +1,27 @@
+section.testimonial .card-testimonial .testimonial-description {
+    font-size: 0.913rem;
+}
+
+section.testimonial .card-testimonial .testimonial-name {
+    font-size: 1.125rem;
+    font-family: var(--nunito-bold);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: 50% !important;
+    bottom: -42px !important;
+    display: flex;
+    transform: translateY(-50%);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: rgba(var(--dark-color), 0.62);
+    border-radius: 9999px !important;
+    margin: 0 4px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgba(var(--primary-color), 1) !important;
+}

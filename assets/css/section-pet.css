@@ -1,0 +1,59 @@
+section.pet .button-arrow {
+    outline: none;
+    border: 1px solid transparent;
+    width: 52px;
+    height: 52px;
+    border-radius: 9999px;
+    background-color: rgba(var(--primary-color), 1);
+}
+
+section.pet .button-arrow:last-child {
+    rotate: 180deg;
+}
+
+section.pet .button-arrow:hover {
+    background-color: rgba(var(--light-color), 1);
+    border-color: rgba(var(--primary-color), 1);
+                          }
+
+section.pet .button-arrow .arrow-icon {
+    width: 22px;
+    height: 22px;
+    background-image: url("../image/icon/arrow-light.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.pet .button-arrow:hover .arrow-icon {
+    background-image: url("../image/icon/arrow-primary.svg");
+}
+
+section.pet .scroll-pet {
+    overflow-x: auto;
+    width: 100%;
+}
+
+section.pet .scroll-pet::-webkit-scrollbar {
+    display: none;
+}
+
+section.pet .scroll-pet {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+section.pet .scroll-pet .pet-content {
+    width: 100%;
+}
+
+section.pet .pet-content .pet-image {
+    width: 260px;
+    height: auto;
+}
+
+section.pet .pet-content h6 {
+    color: rgba(var(--brown-color), 1);
+    font-size: 1.375rem;
+    font-family: var(--nunito-bold);
+}

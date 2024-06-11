@@ -1,0 +1,14 @@
+section.service .card-service img {
+    width: 25%;
+}
+
+section.service .card-service .service-title {
+    font-size: 1.375rem;
+    font-family: var(--nunito-extrabold);
+    color: rgba(var(--brown-color), 1);
+}
+
+section.service .card-service .service-description {
+    font-size: 0.95rem;
+    color: rgba(var(--dark-color), 0.62);
+}

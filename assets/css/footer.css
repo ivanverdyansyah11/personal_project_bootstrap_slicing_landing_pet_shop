@@ -1,0 +1,29 @@
+footer.footer {
+    padding: 20px 0;
+    background-color: rgba(var(--primary-color), 1);
+}
+
+footer.footer .sosmed-link .link-item {
+    width: 42px;
+    height: 42px;
+    border-radius: 9999px;
+    background-color: rgba(var(--light-color), 1);
+}
+
+footer.footer .sosmed-link .link-item:hover {
+    opacity: 0.9;
+}
+
+footer.footer p {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 1);
+}
+
+footer.footer .link-group a {
+    color: rgba(var(--light-color), 1);
+    font-size: 0.875rem;
+}
+
+footer.footer .link-group a:hover {
+    opacity: 0.8;
+}
