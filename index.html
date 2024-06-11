@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main Page | Paw Pet Shop App</title>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <!-- END LINK CSS -->
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-aos="fade-down" data-aos-duration="600">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/image/brand/brand-logo.svg" alt="Brand Logo" class="img-fluid" height="68">
+            </a>
+            <div class="collapse navbar-collapse d-none d-lg-flex justify-content-lg-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link px-3 active" href="#home">Home</a>
+                    <a class="nav-link px-3" href="#about">About</a>
+                    <a class="nav-link px-3" href="#pet">Pet</a>
+                    <a class="nav-link px-3" href="#partner">Contact</a>
+                </div>
+            </div>
+            <a href="#adoption" class="button-primary d-none d-lg-inline-block">Adopt Now</a>
+            <div class="button-hamburger d-lg-none d-flex align-items-center justify-content-center">
+                <img src="assets/image/icon/hamburger.svg" alt="Hamburger Icon" width="20">
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+
+    <!-- TOPBAR -->
+    <div class="topbar d-flex align-items-center justify-content-center text-center" id="topbar">
+        <div class="topbar-link d-flex flex-column align-items-center">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#pet">Pet</a>
+            <a href="#partner">Contact</a>
+            <a href="#adoption">Adopt Now</a>
+        </div>
+    </div>
+    <!-- END TOPBAR -->
+
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+        <!-- SECTION HERO -->
+        <section class="hero" id="home">
+            <div class="row align-items-center" style="height: 100%;">
+                <div class="col-lg-6">
+                    <h1 class="headline" style="margin-bottom: 24px;" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Your Destination for Loving Pet Adoptions</h1>
+                    <p class="description" style="margin-bottom: 32px;" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">At Paw Pet Shop, we believe every pet deserves a loving home. Our mission is to connect you with your perfect furry friend while providing the best care and support throughout the adoption process. Start your journey to unconditional love with Paw Pet Shop today!</p>
+                    <div class="button-group d-flex gap-2" data-aos="fade-left" data-aos-duration="600" data-aos-delay="550">
+                        <a href="#adoption" class="button-primary">Adopt Now</a>
+                        <a href="#service" class="button-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-flex justify-content-end ps-5">
+                    <img src="assets/image/section-hero/banner.svg" alt="Banner Image" class="img-fluid" data-aos="fade" data-aos-duration="500" data-aos-delay="750">
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION HERO -->
+
+
+        <!-- SECTION SERVICE -->
+        <section class="service section-gap" id="service">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="title text-md-center" data-aos="fade-down" data-aos-duration="600">Comprehensive<br>Pet Care Services</h2>
+                </div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 content-gap">
+                <div class="col">
+                    <div class="card-service d-flex flex-column text-md-center align-items-md-center justify-content-center" data-aos="fade-left" data-aos-duration="600">
+                        <img src="assets/image/service/service-1.svg" alt="Service Icon" class="img-fluid" style="margin-bottom: 16px;">
+                        <h6 class="service-title" style="margin-bottom: 4px;">Adoption Services</h6>
+                        <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nulla porro voluptate.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-service d-flex flex-column text-md-center align-items-md-center justify-content-center" data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
+                        <img src="assets/image/service/service-2.svg" alt="Service Icon" class="img-fluid" style="margin-bottom: 16px;">
+                        <h6 class="service-title" style="margin-bottom: 4px;">Wellness and Care</h6>
+                        <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nulla porro voluptate.</p>
+                    </div>
+                </div>
+                <div class="col d-none d-md-inline-block">
+                    <div class="card-service d-flex flex-column text-md-center align-items-md-center justify-content-center" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+                        <img src="assets/image/service/service-3.svg" alt="Service Icon" class="img-fluid" style="margin-bottom: 16px;">
+                        <h6 class="service-title" style="margin-bottom: 4px;">Training Behavior</h6>
+                        <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nulla porro voluptate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION SERVICE -->
+
+
+        <!-- SECTION ABOUT -->
+        <section class="about section-gap" id="about">
+            <div class="row align-items-center">
+                <div class="col-lg-6 d-none d-lg-flex justify-content-start pe-5">
+                    <img src="assets/image/section-about/banner.svg" alt="Banner Image" class="img-fluid" data-aos="fade" data-aos-duration="500" data-aos-delay="800">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="title" style="margin-bottom: 24px;" data-aos="fade-down" data-aos-duration="600">Connecting with Our Vision & Mission</h2>
+                    <p class="description" style="margin-bottom: 32px;" data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">At Paw Pet Shop, our vision is a world where every pet finds a loving home and lives a happy, healthy life. We are dedicated to making this vision a reality through our mission: to facilitate responsible pet adoptions, provide exceptional care for our animals, and educate our community about the joys</p>
+                    <div class="row row-cols-2" style="margin-bottom: 32px;">
+                        <div class="col d-flex align-items-center gap-3 mb-4" data-aos="fade-left" data-aos-duration="500">
+                            <img src="assets/image/icon/checklist.svg" alt="Checklist Icon" class="img-fluid checklist-icon" width="32">
+                            <h6>Certified Expertise</h6>
+                        </div>
+                        <div class="col d-flex align-items-center gap-3 mb-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="assets/image/icon/checklist.svg" alt="Checklist Icon" class="img-fluid checklist-icon" width="32">
+                            <h6>Years of Experience</h6>
+                        </div>
+                        <div class="col d-flex align-items-center gap-3" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                            <img src="assets/image/icon/checklist.svg" alt="Checklist Icon" class="img-fluid checklist-icon" width="32">
+                            <h6>Tailored Solutions</h6>
+                        </div>
+                        <div class="col d-flex align-items-center gap-3" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                            <img src="assets/image/icon/checklist.svg" alt="Checklist Icon" class="img-fluid checklist-icon" width="32">
+                            <h6>Community Connect</h6>
+                        </div>
+                    </div>
+                    <div class="button-group d-flex gap-2" data-aos="fade-left" data-aos-duration="500">
+                        <a href="#adoption" class="button-primary">Adopt Now</a>
+                        <a href="#gallery" class="button-outline">Explore Galleries</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION ABOUT -->
+
+
+        <!-- SECTION PET -->
+        <section class="pet section-gap" id="pet">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h2 class="title" data-aos="fade-right" data-aos-duration="500">Connecting You with Our Belove Pets</h2>
+                </div>
+                <div class="col-md-6 col-lg-5 col-xl-4">
+                    <p class="description" style="margin-bottom: 16px;" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur, adipisicing. Dolore maiores sequi, quoro qui voluptas undein beatae vel quaet lab</p>
+                    <div class="button-group d-flex gap-2 w-100 justify-content-md-end" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                        <button type="button" class="button-arrow d-flex align-items-center justify-content-center">
+                            <span class="arrow-icon"></span>
+                        </button>
+                        <button type="button" class="button-arrow d-flex align-items-center justify-content-center">
+                            <span class="arrow-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row content-gap">
+                <div class="col-12">
+                    <div class="scroll-pet">
+                        <div class="pet-content d-flex gap-4 align-items-center">
+                            <div class="content text-center" data-aos="fade-left" data-aos-duration="500">
+                                <img src="assets/image/pet/pet-1.svg" alt="Pet Image" class="pet-image" style="margin-bottom: 16px;">
+                                <h6>Max</h6>
+                            </div>
+                            <div class="content text-center" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                                <img src="assets/image/pet/pet-2.svg" alt="Pet Image" class="pet-image" style="margin-bottom: 16px;">
+                                <h6>Oliver</h6>
+                            </div>
+                            <div class="content text-center" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <img src="assets/image/pet/pet-3.svg" alt="Pet Image" class="pet-image" style="margin-bottom: 16px;">
+                                <h6>Luna</h6>
+                            </div>
+                            <div class="content text-center" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <img src="assets/image/pet/pet-4.svg" alt="Pet Image" class="pet-image" style="margin-bottom: 16px;">
+                                <h6>Bella</h6>
+                            </div>
+                            <div class="content text-center" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">
+                                <img src="assets/image/pet/pet-5.svg" alt="Pet Image" class="pet-image" style="margin-bottom: 16px;">
+                                <h6>Leo</h6>
+                            </div>
+                            <div class="content text-center" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
+                                <img src="assets/image/pet/pet-6.svg" alt="Pet Image" class="pet-image" style="margin-bottom: 16px;">
+                                <h6>Martin</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row content-gap">
+                <div class="col-12 d-flex justify-content-center" data-aos="fade-down" data-aos-duration="500">
+                    <a href="#adoption" class="button-primary">Adopt Now</a>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION PET -->
+
+
+        <!-- SECTION ADOPTION -->
+        <section class="adoption section-gap" id="adoption">
+            <div class="row align-items-center">
+                <div class="col-lg-6 d-none d-lg-flex justify-content-start pe-5">
+                    <img src="assets/image/section-adoption/banner.svg" alt="Banner Image" class="img-fluid" data-aos="fade" data-aos-duration="500" data-aos-delay="500">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="title" style="margin-bottom: 32px;" data-aos="fade-down" data-aos-duration="500">Adoption Journey Unveiled</h2>
+                    <div class="row gap-4">
+                        <div class="col-12">
+                            <div class="card-adoption d-flex align-items-center gap-3" data-aos="fade-left" data-aos-duration="500">
+                                <p class="adoption-number d-flex align-items-center justify-content-center">01</p>
+                                <div class="adoption-item">
+                                    <h5 class="adoption-title" style="margin-bottom: 2px;">Exploration</h5>
+                                    <p class="adoption-description">Lorem ipsum dolor sit amet consecteturas Dolore maiores sequi, quo vero qui volupta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card-adoption d-flex align-items-center gap-3 ps-md-5" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                                <p class="adoption-number d-flex align-items-center justify-content-center">02</p>
+                                <div class="adoption-item">
+                                    <h5 class="adoption-title" style="margin-bottom: 2px;">Application</h5>
+                                    <p class="adoption-description">Lorem ipsum dolor sit amet consecteturas Dolore maiores sequi, quo vero qui volupta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card-adoption d-flex align-items-center gap-3" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <p class="adoption-number d-flex align-items-center justify-content-center">03</p>
+                                <div class="adoption-item">
+                                    <h5 class="adoption-title" style="margin-bottom: 2px;">Home Check</h5>
+                                    <p class="adoption-description">Lorem ipsum dolor sit amet consecteturas Dolore maiores sequi, quo vero qui volupta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card-adoption d-flex align-items-center gap-3 ps-md-5" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <p class="adoption-number d-flex align-items-center justify-content-center">04</p>
+                                <div class="adoption-item">
+                                    <h5 class="adoption-title" style="margin-bottom: 2px;">Finalization</h5>
+                                    <p class="adoption-description">Lorem ipsum dolor sit amet consecteturas Dolore maiores sequi, quo vero qui volupta</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION ADOPTION -->
+
+
+        <!-- SECTION PARTNER -->
+        <section class="partner section-gap" id="partner">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="title" style="margin-bottom: 24px;" data-aos="fade-down" data-aos-duration="500">Contribute and Partner</h2>
+                    <p class="description" style="margin-bottom: 32px;" data-aos="fade-down" data-aos-duration="500">Lorem ipsum dolor sit amet consectetur, adipisicing. Dolore maiores sequi, quo vero qui voluptas undein beatae vel quae tempora? Porro vel laudantium lab</p>
+                    <div class="partner-sosmed d-flex gap-3 align-items-center" style="margin-bottom: 42px;">
+                        <p data-aos="fade-left" data-aos-duration="500">Our Contact</p>
+                        <div class="sosmed-link d-flex gap-2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="150">
+                            <a target="_blank" href="http://facebook.com" class="link-item d-flex align-items-center justify-content-center">
+                                <img src="assets/image/icon/facebook.svg" alt="Facebook Icon" width="18">
+                            </a>
+                            <a target="_blank" href="http://instagram.com" class="link-item d-flex align-items-center justify-content-center">
+                                <img src="assets/image/icon/instagram.svg" alt="Instagram Icon" width="18">
+                            </a>
+                            <a target="_blank" href="http://twitter.com" class="link-item d-flex align-items-center justify-content-center">
+                                <img src="assets/image/icon/twitter.svg" alt="Twitter Icon" width="18">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="button-group d-flex gap-2" data-aos="fade-down" data-aos-duration="500">
+                        <a href="#hero" class="button-primary">Join Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-flex justify-content-end ps-5">
+                    <img src="assets/image/section-partner/banner.svg" alt="Banner Image" class="img-fluid" data-aos="fade" data-aos-duration="500" data-aos-delay="500">
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION PARTNER -->
+
+
+        <!-- SECTION TESTIMONIAL -->
+        <section class="testimonial section-gap" id="testimonial">
+            <div class="row align-items-center">
+                <div class="col-lg-6 d-none d-lg-flex justify-content-start pe-5">
+                    <img src="assets/image/section-testimonial/banner.svg" alt="Banner Image" class="img-fluid" data-aos="fade" data-aos-duration="500" data-aos-delay="600">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="title" style="margin-bottom: 32px;" data-aos="fade-down" data-aos-duration="500">Heartwarming Pet Happiness Stories</h2>
+                    <img src="assets/image/icon/quote.svg" alt="Quote Icon" width="40" style="margin-bottom: 24px;" data-aos="fade" data-aos-duration="500">
+                    <div class="wrapper-testimonial position-relative">
+                        <div class="swiper mySwiper w-100 position-relative">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" data-aos="fade-left" data-aos-duration="500">
+                                    <div class="card-testimonial">
+                                        <p class="testimonial-description" style="margin-bottom: 12px;">Laborum, animi tempora architecto! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore maiores sequi, quo vero qui voluptas unde, in quam beatae vel quae tempora? Porro vel laudantium laboriosam laborum, animi tempora!</p>
+                                        <h6 class="testimonial-name">Raju Batubara</h6>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                                    <div class="card-testimonial">
+                                        <p class="testimonial-description" style="margin-bottom: 12px;">Laborum, animi tempora architecto! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore maiores sequi, quo vero qui voluptas unde, in quam beatae vel quae tempora? Porro vel laudantium laboriosam laborum, animi tempora!</p>
+                                        <h6 class="testimonial-name">Raju Batubara</h6>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                    <div class="card-testimonial">
+                                        <p class="testimonial-description" style="margin-bottom: 12px;">Laborum, animi tempora architecto! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore maiores sequi, quo vero qui voluptas unde, in quam beatae vel quae tempora? Porro vel laudantium laboriosam laborum, animi tempora!</p>
+                                        <h6 class="testimonial-name">Raju Batubara</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION TESTIMONIAL -->
+
+
+        <!-- SECTION GALLERY -->
+        <section class="gallery section-gap" id="gallery">
+            <div class="row text-center justify-content-center">
+                <div class="col-12 mb-3">
+                    <h2 class="title" data-aos="fade-down" data-aos-duration="500">Captured Moments with Our Pets</h2>
+                </div>
+                <div class="col-md-10 col-lg-9 col-xl-8">
+                    <p class="description" data-aos="fade-down" data-aos-duration="500">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Dolore maiores sequi, quo vero qui voluptas unde, in qu</p>
+                </div>
+            </div>
+            <div class="row content-gap row-cols-2 row-cols-md-3 gx-3">
+                <div class="col mb-3 mb-md-0" data-aos="fade-left" data-aos-duration="500">
+                    <img src="assets/image/gallery/gallery-1.svg" alt="Gallery Image" class="gallery-image">
+                </div>
+                <div class="col mb-3 mb-md-0" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                    <img src="assets/image/gallery/gallery-2.svg" alt="Gallery Image" class="gallery-image">
+                </div>
+                <div class="col" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                    <img src="assets/image/gallery/gallery-3.svg" alt="Gallery Image" class="gallery-image">
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION GALLERY -->
+    </main>
+    <!-- END MAIN CONTENT -->
+
+
+    <!-- FOOTER -->
+    <footer class="footer section-gap" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-column flex-md-row align-items-center justify-content-md-between justify-content-center gap-3 gap-md-0">
+                    <p>Copyright 2023 All Rights Reserved.</p>
+                    <div class="sosmed-link d-flex gap-2">
+                        <a target="_blank" href="http://facebook.com" class="link-item d-flex align-items-center justify-content-center">
+                            <img src="assets/image/icon/facebook-primary.svg" alt="Facebook Icon" width="10">
+                        </a>
+                        <a target="_blank" href="http://instagram.com" class="link-item d-flex align-items-center justify-content-center">
+                            <img src="assets/image/icon/instagram-primary.svg" alt="Instagram Icon" width="16">
+                        </a>
+                        <a target="_blank" href="http://twitter.com" class="link-item d-flex align-items-center justify-content-center">
+                            <img src="assets/image/icon/twitter-primary.svg" alt="Twitter Icon" width="16">
+                        </a>
+                    </div>
+                    <div class="link-group d-flex gap-3">
+                        <a href="index.html">Terms & Conditions</a>
+                        <a href="index.html">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+
+    <!-- SCRIPT JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- END SCRIPT JS -->
+</body>
+</html>
