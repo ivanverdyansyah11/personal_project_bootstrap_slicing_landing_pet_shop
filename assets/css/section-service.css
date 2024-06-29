@@ -1,3 +1,9 @@
+section.service .paw-item {
+    top: 0;
+    right: 0;
+    rotate: -90deg;
+}
+
 section.service .card-service img {
     width: 25%;
 }
