@@ -1,3 +1,9 @@
+section.testimonial .paw-item {
+    top: -20px;
+    right: 0;
+    rotate: -90deg;
+}
+
 section.testimonial .card-testimonial .testimonial-description {
     font-size: 0.913rem;
 }
