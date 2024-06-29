@@ -1,3 +1,8 @@
 section.hero {
     padding-top: 100px;
 }
+
+section.hero .paw-item {
+    top: 90px;
+    left: -50px;
+}
