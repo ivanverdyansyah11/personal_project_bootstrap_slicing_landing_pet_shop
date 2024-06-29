@@ -1,3 +1,9 @@
+section.adoption .paw-item {
+    top: -20px;
+    right: 0;
+    rotate: -90deg;
+}
+
 section.adoption .card-adoption .adoption-number {
     width: 62px;
     height: 62px;
