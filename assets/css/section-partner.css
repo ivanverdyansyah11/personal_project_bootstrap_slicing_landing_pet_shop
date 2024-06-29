@@ -1,3 +1,8 @@
+section.partner .paw-item {
+    top: -60px;
+    left: -50px;
+}
+
 section.partner .partner-sosmed p {
     font-size: 1rem;
     font-family: var(--nunito-bold);
