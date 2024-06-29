@@ -1,3 +1,8 @@
+section.pet .paw-item {
+    top: -60px;
+    left: -50px;
+}
+
 section.pet .button-arrow {
     outline: none;
     border: 1px solid transparent;
